@@ -29,11 +29,11 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                         <button className="primary-button group">
-                            Get Started <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                            Get Started <ChevronRight size={20} className="transition-all" />
                         </button>
                         <button
                             onClick={onReadPrivacy}
-                            className="px-8 py-4 rounded-xl border border-slate-700 hover:border-indigo-500/50 hover:bg-slate-800/50 transition-all font-semibold flex items-center justify-center gap-2"
+                            className="secondary-button"
                         >
                             <ShieldCheck size={20} className="text-indigo-400" />
                             Privacy Policy

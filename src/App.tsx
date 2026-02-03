@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="min-h-screen">
             {/* Navigation */}
-            <nav className="fixed top-0 left-0 right-0 z-50 py-6 px-10 flex justify-between items-center glass-morphism border-none rounded-none bg-slate-900/50">
+            <nav className="nav-fixed py-6 px-10 flex justify-between items-center border-none glass-morphism">
                 <div
                     className="text-2xl font-bold cursor-pointer flex items-center gap-2"
                     onClick={() => setView('home')}
@@ -17,7 +17,7 @@ function App() {
                     <div className="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center">
                         <Rocket className="text-white" size={24} />
                     </div>
-                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
+                    <span className="gradient-text">
                         Stream<span className="text-indigo-500">Flix</span>
                     </span>
                 </div>
