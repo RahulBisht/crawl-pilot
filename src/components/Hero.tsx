@@ -39,7 +39,7 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                                 onClick={onReadPrivacy}
                                 className="btn-secondary"
                             >
-                                More Info
+                                Privacy Policy
                             </button>
                         </div>
                     </motion.div>
@@ -56,6 +56,9 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                             alt="StreamFlix Premium Interface"
                             className="hero-screenshot"
                         />
+                        <div className="screenshot-disclaimer">
+                            * Interface shown for visual enhancement. StreamFlix does not provide or include any media or content. Users must provide their own content in adherence with copyright laws.
+                        </div>
                     </motion.div>
                 </div>
 

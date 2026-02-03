@@ -179,6 +179,17 @@ body {
     display: block;
 }
 
+.screenshot-disclaimer {
+    padding: 1.25rem;
+    background: rgba(0, 0, 0, 0.9);
+    font-size: 0.75rem;
+    color: #888;
+    line-height: 1.5;
+    text-align: left;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-style: italic;
+}
+
 /* Features modeled after Playlist Cards */
 .features-grid {
     display: grid;
@@ -234,12 +245,70 @@ body {
     font-weight: 500;
 }
 
-/* Privacy Policy Content stay premium */
+/* Privacy Policy Refined */
 .pp-container {
-    max-width: 850px;
+    max-width: 900px;
     margin: 120px auto;
-    padding: 0 2rem;
-    background: var(--bg-dark);
+    padding: 4rem 3rem;
+    background: #0a0a0a;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.pp-section {
+    margin-bottom: 4rem;
+}
+
+.pp-section:last-child {
+    margin-bottom: 0;
+}
+
+.pp-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 3rem;
+    letter-spacing: -1px;
+}
+
+.pp-content {
+    color: var(--text-gray);
+    line-height: 1.8;
+    font-size: 1.15rem;
+}
+
+.pp-point {
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.pp-heading-2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.pp-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pp-list-item {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-gray);
+}
+
+.pp-list-item::before {
+    content: "→";
+    color: var(--primary);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
 }
 
 /* Utils */
