@@ -1,131 +1,92 @@
-# Privacy Policy
+# Privacy Policy for StreamFlix
 
-*Last updated: {{DATE}}*
+**Last Updated: February 03, 2026**
 
-This Privacy Policy describes how **{{APP_NAME}}** ("we", "our", or "us") collects, uses, and shares information when you use our Android application (the "App").
+CrawlPilot ("we," "us," or "our") operates the StreamFlix mobile application (the "App"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our App and the choices you have associated with that data.
 
-This page is intended to be hosted as a **GitHub Pages** website and linked from the Google Play Console.
-
----
-
-## 1. Information We Collect
-
-### 1.1 Information You Provide
-
-We do not require users to create an account or provide personal information unless explicitly stated within the app.
-
-### 1.2 Automatically Collected Information
-
-The App may collect limited non-personal information automatically, including:
-
-* Device model and manufacturer
-* Android version
-* App version
-* Anonymous crash logs and performance metrics
-
-This data is used solely to improve app stability and performance.
-
-### 1.3 Permissions
-
-The App may request the following permissions (only if applicable):
-
-* Internet access – required for core app functionality
-* Storage / Media access – only for user-initiated actions
-
-We do **not** access sensitive personal data without explicit user consent.
+We use your data to provide and improve the App. By using the App, you agree to the collection and use of information in accordance with this policy.
 
 ---
 
-## 2. How We Use Information
+## 1. Information Collection and Use
 
-We use the collected information to:
+We collect several different types of information for various purposes to provide and improve our service to you.
 
-* Operate and maintain the App
-* Improve features and user experience
-* Detect and fix bugs or crashes
-* Comply with legal obligations
+### Types of Data Collected
 
----
+#### Personal Data
+While using our App, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
+*   Email address (for account synchronization if applicable)
+*   Cookies and Usage Data
 
-## 3. Data Sharing and Disclosure
-
-We do **not** sell, rent, or trade your personal data.
-
-Data may be shared only in the following cases:
-
-* With trusted third-party services for analytics or crash reporting
-* When required by law or government authorities
-* To protect our legal rights
-
----
-
-## 4. Third-Party Services
-
-The App may use third-party services such as:
-
-* Google Play Services
-* Google Analytics for Firebase
-* Firebase Crashlytics
-
-These services may collect information according to their own privacy policies.
+#### Usage Data
+When you access the App by or through a mobile device, we may collect certain information automatically, including, but not limited to:
+*   The type of mobile device you use
+*   Your mobile device unique ID
+*   The IP address of your mobile device
+*   Your mobile operating system
+*   The type of mobile Internet browser you use
+*   Unique device identifiers and other diagnostic data
 
 ---
 
-## 5. Data Security
+## 2. IPTV Content and Links
 
-We take reasonable measures to protect your information using industry-standard security practices. However, no method of transmission over the internet is 100% secure.
+StreamFlix is an IPTV Player. It does not provide, host, or own any media content. Users are responsible for providing their own content (e.g., M3U playlists). StreamFlix does not have any affiliation with third-party providers.
 
----
-
-## 6. Data Retention
-
-We retain collected information only for as long as necessary to fulfill the purposes outlined in this policy, unless a longer retention period is required by law.
+*   **Playlist Privacy**: Any M3U links or playlist data you enter into the app are stored locally on your device or in your private secure storage. We do not transmit your playlist URLs to our servers.
 
 ---
 
-## 7. Children’s Privacy
+## 3. Advertising and Third-Party Services
 
-The App is not intended for children under the age of 13. We do not knowingly collect personal information from children.
+We may use third-party Service Providers to monitor and analyze the use of our Service, or to show advertisements to you to help support and maintain our Service.
 
-If you believe that a child has provided us with personal information, please contact us and we will promptly delete it.
-
----
-
-## 8. Your Rights
-
-Depending on your location, you may have rights to:
-
-* Access the data we collect
-* Request correction or deletion of data
-* Withdraw consent
-
-To exercise these rights, contact us at the email below.
+### Google AdMob
+We use Google AdMob to display advertisements. Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide a positive experience for users. 
+*   Google uses cookies to serve ads on our App. Google's use of the advertising identifier enables it and its partners to serve ads to our users based on their visit to our App or other apps on the Internet.
+*   You may opt-out of personalized advertising by visiting [Google Ads Settings](https://www.google.com/settings/ads).
 
 ---
 
-## 9. Changes to This Privacy Policy
+## 4. Use of Data
 
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date.
-
----
-
-## 10. Contact Us
-
-If you have any questions about this Privacy Policy, contact us at:
-
-**Email:** {{CONTACT_EMAIL}}
-
----
-
-## 11. Consent
-
-By using the App, you agree to this Privacy Policy.
+StreamFlix uses the collected data for various purposes:
+*   To provide and maintain the App
+*   To notify you about changes to our App
+*   To allow you to participate in interactive features of our App when you choose to do so
+*   To provide customer care and support
+*   To provide analysis or valuable information so that we can improve the App
+*   To monitor the usage of the App
+*   To detect, prevent and address technical issues
 
 ---
 
-### How to Use This Page
+## 5. Security of Data
 
-1. Replace `{{APP_NAME}}`, `{{DATE}}`, and `{{CONTACT_EMAIL}}`
-2. Commit this file as `index.md` or `index.html`
-3. Enable GitHub Pages from repository settings
-4. Add the GitHub Pages URL to Google Play Console → Privacy Policy
+The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+
+---
+
+## 6. Children's Privacy
+
+Our Service does not address anyone under the age of 13 ("Children").
+
+We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
+
+---
+
+## 7. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+---
+
+## 8. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us:
+
+*   **By email**: crawlpilot6365@gmail.com
+*   **Website**: https://rahulbisht.github.io/crawl-pilot/
