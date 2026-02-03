@@ -1,5 +1,5 @@
 import React from 'react'
-import { Play, Shield, Database, Zap, Plus, MoreHorizontal } from 'lucide-react'
+import { Play, Shield, Database, Zap, Plus, MoreHorizontal, Globe, Clock, ShieldCheck } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 interface HeroProps {
@@ -18,22 +18,22 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                         transition={{ duration: 0.8 }}
                     >
                         <div className="pill-badge">
-                            <Zap size={14} fill="currentColor" />
-                            Pro IPTV Experience
+                            <ShieldCheck size={14} fill="currentColor" />
+                            Premium & Private Player
                         </div>
 
                         <h1 className="hero-title">
                             The Ultimate <br />
-                            <span className="text-highlight">Streaming Player</span>
+                            <span className="text-highlight">IPTV Experience</span>
                         </h1>
 
                         <p className="hero-description">
-                            Experience entertainment like never before with StreamFlix. High-performance playback, advanced playlist management, and total privacy in one sleek package.
+                            Elevate your viewing with StreamFlix. A high-performance IPTV player built for speed, advanced playlist management, and local playback support—all while keeping your data strictly private.
                         </p>
 
                         <div className="flex gap-4">
                             <button className="btn-primary-red">
-                                <Play size={20} fill="currentColor" /> Play Now
+                                Get Started
                             </button>
                             <button
                                 onClick={onReadPrivacy}
@@ -53,13 +53,13 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                     >
                         <img
                             src="assets/app_screenshot.png"
-                            alt="StreamFlix App Header"
+                            alt="StreamFlix Premium Interface"
                             className="hero-screenshot"
                         />
                     </motion.div>
                 </div>
 
-                {/* Features Grid modeled after App Playlist Cards */}
+                {/* Features Grid Refined */}
                 <div className="features-grid">
                     <motion.div
                         className="feature-card card-red"
@@ -67,10 +67,10 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                     >
-                        <MoreHorizontal className="absolute top-4 right-4 text-white/50" />
-                        <h3 className="feature-title">Live TV</h3>
-                        <p className="feature-desc">14872+ Channels with zero lag playback.</p>
-                        <div className="feature-tag">14872 Ch</div>
+                        <Clock className="absolute top-4 right-4 text-white/30" />
+                        <h3 className="feature-title">Ultra Latency</h3>
+                        <p className="feature-desc">Engineered for lightning-fast stream loading and buffer-free playback.</p>
+                        <div className="feature-tag">Pro Performance</div>
                     </motion.div>
 
                     <motion.div
@@ -80,10 +80,10 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.1 }}
                     >
-                        <MoreHorizontal className="absolute top-4 right-4 text-white/50" />
-                        <h3 className="feature-title">Movies</h3>
-                        <p className="feature-desc">Import and stream your favorite playlists.</p>
-                        <div className="feature-tag">10941 Ch</div>
+                        <Globe className="absolute top-4 right-4 text-white/30" />
+                        <h3 className="feature-title">Global Support</h3>
+                        <p className="feature-desc">Seamlessly import local M3U8 files and remote streams with ease.</p>
+                        <div className="feature-tag">Local & Remote</div>
                     </motion.div>
 
                     <motion.div
@@ -93,10 +93,10 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
                     >
-                        <MoreHorizontal className="absolute top-4 right-4 text-white/50" />
-                        <h3 className="feature-title">Secure</h3>
-                        <p className="feature-desc">Encrypted playback and local data storage.</p>
-                        <div className="feature-tag">Privacy 100%</div>
+                        <ShieldCheck className="absolute top-4 right-4 text-white/30" />
+                        <h3 className="feature-title">Privacy First</h3>
+                        <p className="feature-desc">No tracking, no logs. Your playlists and viewing history stay on your device.</p>
+                        <div className="feature-tag">100% Private</div>
                     </motion.div>
                 </div>
             </div>
