@@ -163,18 +163,26 @@ body {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Hero Section */
-.hero-grid-vertical {
-    display: flex;
-    flex-direction: column;
+/* Hero Sections */
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
     align-items: center;
+    padding-top: 15vh;
     padding-bottom: 10vh;
+}
+
+@media (min-width: 1024px) {
+    .hero-grid {
+        grid-template-columns: 1fr 1.2fr;
+        padding-top: 20vh;
+        gap: 6rem;
+    }
 }
 
 .hero-desktop-container {
     width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
 }
 
 .browser-frame {

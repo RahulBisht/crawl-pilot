@@ -10,15 +10,14 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
     return (
         <div className="bg-radial">
             <div className="container">
-                <div className="hero-grid-vertical">
+                <div className="hero-grid">
                     {/* Content Section */}
                     <motion.div
-                        className="text-center max-w-3xl mx-auto mb-16 pt-24"
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 0, x: -30 }}
+                        animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <div className="pill-badge mx-auto">
+                        <div className="pill-badge">
                             <ShieldCheck size={14} fill="currentColor" />
                             Premium & Private IPTV Experience
                         </div>
@@ -28,11 +27,11 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                             <span className="text-highlight">Browser Streaming</span>
                         </h1>
 
-                        <p className="hero-description mx-auto">
+                        <p className="hero-description">
                             Experience IPTV like never before with StreamFlix. A high-performance player built for speed, advanced playlist management, and local playback—crafted with a premium Indigo design that keeps your privacy first.
                         </p>
 
-                        <div className="flex gap-4 justify-center">
+                        <div className="flex gap-4">
                             <button className="btn-primary-red">
                                 Download StreamFlix
                             </button>
@@ -48,8 +47,8 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                     {/* App Screenshot Section */}
                     <motion.div
                         className="hero-desktop-container"
-                        initial={{ opacity: 0, y: 40 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 0, x: 30 }}
+                        animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
                         <div className="browser-frame">
@@ -66,9 +65,9 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                                 alt="StreamFlix Dashboard Preview"
                                 className="hero-screenshot"
                             />
-                        </div>
-                        <div className="screenshot-disclaimer mt-8 text-center max-w-xl mx-auto rounded-lg border border-white/5 bg-[#0f172a]/50 backdrop-blur-sm">
-                            * Interface shown for visual demonstration. StreamFlix does not provide any media content. Users must provide their own playlists.
+                            <div className="screenshot-disclaimer">
+                                * Interface shown for visual demonstration. StreamFlix does not provide any media content. Users must provide their own playlists.
+                            </div>
                         </div>
                     </motion.div>
                 </div>
