@@ -2,6 +2,8 @@ import React from 'react'
 import { Play, Shield, Database, Zap, Plus, MoreHorizontal, Globe, Clock, ShieldCheck } from 'lucide-react'
 import { motion } from 'framer-motion'
 
+import MobileMockup from './MobileMockup'
+
 interface HeroProps {
     onReadPrivacy: () => void
 }
@@ -19,21 +21,21 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                     >
                         <div className="pill-badge">
                             <ShieldCheck size={14} fill="currentColor" />
-                            Premium & Private Player
+                            Premium & Private IPTV Player
                         </div>
 
                         <h1 className="hero-title">
                             The Ultimate <br />
-                            <span className="text-highlight">IPTV Experience</span>
+                            <span className="text-highlight">Streaming Hub</span>
                         </h1>
 
                         <p className="hero-description">
-                            Elevate your viewing with StreamFlix. A high-performance IPTV player built for speed, advanced playlist management, and local playback support—all while keeping your data strictly private.
+                            Experience IPTV like never before with StreamFlix. A high-performance player built for speed, advanced playlist management, and local playback—crafted with a premium Indigo design that keeps your privacy first.
                         </p>
 
                         <div className="flex gap-4">
                             <button className="btn-primary-red">
-                                Get Started
+                                Get StreamFlix
                             </button>
                             <button
                                 onClick={onReadPrivacy}
@@ -44,20 +46,18 @@ const Hero: React.FC<HeroProps> = ({ onReadPrivacy }) => {
                         </div>
                     </motion.div>
 
-                    {/* Right Side: App Screenshot */}
+                    {/* Right Side: App Mockup */}
                     <motion.div
-                        className="hero-screenshot-container"
-                        initial={{ opacity: 0, scale: 0.95 }}
+                        className="flex justify-center lg:justify-end"
+                        initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
-                        <img
-                            src="assets/app_screenshot.png"
-                            alt="StreamFlix Premium Interface"
-                            className="hero-screenshot"
-                        />
-                        <div className="screenshot-disclaimer">
-                            * Interface shown for visual enhancement. StreamFlix does not provide or include any media or content. Users must provide their own content in adherence with copyright laws.
+                        <div className="relative">
+                            <MobileMockup />
+                            <div className="screenshot-disclaimer mt-8 max-w-[280px] mx-auto rounded-lg border border-white/5 bg-[#0f172a]/50 backdrop-blur-sm">
+                                * Interface shown for visual demonstration. StreamFlix does not provide any media content. Users must provide their own playlists.
+                            </div>
                         </div>
                     </motion.div>
                 </div>
